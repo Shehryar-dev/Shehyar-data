@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    height: 100vh;
+}
+
+.loader-load {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 12px solid #f3f3fa;
+    border-top: 12px solid #000;
+    animation: loader 1s linear infinite;
+
+}
+@keyframes loader {
+    from{
+        transform: rotate(360deg);
+    }
+}
